@@ -1,0 +1,154 @@
+h1{
+	font-size: 40px;
+}
+
+a:hover{
+color: rgb(246, 158, 64);
+}
+
+.myButton:hover{
+    background-color: rgb(246, 158, 64);
+    color: white;
+}
+
+.myButton{
+    background-color: #f16f7e;
+    color: white;
+}
+
+.buttonSize{
+    width: 100px;
+}
+
+.adresa{
+    padding-top: 20px;
+}
+
+.zvezdica{
+    margin-right: 10px;
+    color: #f16f7e;
+    font-size: 20px;
+}
+
+.border-dobro{
+    border-color:rgb(246, 158, 64);
+
+}
+.border-lose{
+    border-color:#f16f7e;
+}
+.redForma,#redFormaZadnji{
+    align-items: flex-start;
+}
+#greske{
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+#redFormaZadnji{
+    margin-bottom: 200px;
+}
+#glavni{
+	height: auto;
+}
+.slajd{
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+}
+.slick-arrow{
+	position: absolute;
+	z-index: 1;
+	margin: 20px;
+	width: auto;
+	height: auto;
+}
+.slick-prev{
+	left:  0px;
+}
+.slick-next{
+	right: 0px;
+}
+.slick-prev:before, .slick-next:before{
+	font-size: 50px;
+	color: #545454;
+}
+#logo{
+	display: flex;
+	width: 50%;
+}
+#slikaLogo{
+	height: 55px;
+}
+#prvi{
+	background-image: url("s1.jpg");
+}
+#drugi{
+	background-image: url("s2.jpg");
+}
+#menu-jk{
+	z-index: 1;
+	position: relative;
+}
+#menuLinkovi{
+	width: 50%;
+}
+
+@media all and (max-width: 1000px){
+	.slajd{
+		height: 300px;
+	}
+}
+
+@media all and (max-width: 750px){
+	.slajd{
+		height: 200px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.page-nav {
+		padding-top: 40px;
+	}
+}
+.myButton2{
+	background-color: white;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+}
+.myButton2>i{
+	margin-top: 4px;
+}
+.myButton2:hover{
+	background-color: #f7f7f7;
+}
+.opis{
+	background-color: white;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	width: 100%;
+	padding: 12px;
+	overflow-wrap: break-word;
+}
+
+a{
+	color: grey;
+}
+#futer{
+	justify-content: space-between;
+}
+
+#myButton3{
+	border: none;
+}
+
+.image,.detail{
+	width: 100%;
+}
+
+
